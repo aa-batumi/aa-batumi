@@ -25,3 +25,9 @@ theme = ['hugo-cloak-email', 'hugo-theme-monochrome']
     #     title = "ჯგუფის შესახებ"
     #     url = "/ge/about/"
     #     weight = 100
+
+[params]
+  googleMapsApiKey = 'AIzaSyCShDV8xk3lcXMBYd4S9Gq_Pcws1YiyiMA'
+
+[markup.goldmark.renderer]
+  unsafe= true
