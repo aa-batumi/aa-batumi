@@ -1,0 +1,27 @@
+baseURL = 'https://aa-batumi.ge/'
+languageCode = 'ru-RU'
+title = 'AA Batumi'
+defaultContentLanguage = 'ru'
+theme = ['hugo-cloak-email', 'hugo-theme-monochrome']
+
+
+[languages]
+  [languages.ru]
+    languageName = 'Русский'
+    title = 'АА Батуми'
+    weight = 1
+    [languages.ru.params]
+      linkedin = 'https://linkedin.com/whoever'
+
+  [languages.ka]
+    languageName = 'ქართული'
+    title = 'აა ბათუმი'
+    weight = 1
+    [languages.ge.params]
+      linkedin = 'https://linkedin.com/whoever'
+    # [[languages.ge.menu.navbar]]
+    #     identifier = "about"
+    #     name = "ჯგუფის შესახებ"
+    #     title = "ჯგუფის შესახებ"
+    #     url = "/ge/about/"
+    #     weight = 100
